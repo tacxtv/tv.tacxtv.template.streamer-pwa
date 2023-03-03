@@ -1,0 +1,13 @@
+# Fichier contenants la liste des fichiers et dossiers à ignorer dans le référentiel
+## Exemple : *.log
+
+.parcel-cache/
+node_modules/
+dist/
+.env
+*.log
+yarn.lock
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

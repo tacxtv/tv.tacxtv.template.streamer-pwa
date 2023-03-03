@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    "EditorConfig.EditorConfig",
+    "esbenp.prettier-vscode",
+    "encay.vscode-chatgpt",
+    "GitHub.copilot",
+    "rvest.vs-code-prettier-eslint",
+    "xr0master.webstorm-intellij-darcula-theme",
+    "christian-kohler.npm-intellisense",
+    "christian-kohler.path-intellisense",
+    "k--kato.intellij-idea-keybindings",
+    "sburg.vscode-javascript-booster",
+    "usernamehw.errorlens",
+    "ms-edgedevtools.vscode-edge-devtools",
+    "MS-CEINTL.vscode-language-pack-fr"
+  ]
+}

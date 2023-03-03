@@ -1,0 +1,24 @@
+# http://editorconfig.org
+## Fichier de configuration pour l'éditeur de texte
+## A modifier en fonction de vos préférences
+## Si vous utilisez Sublime Text, installez le plugin EditorConfig
+## Si vous utilisez Atom, installez le plugin editorconfig
+## Si vous utilisez Visual Studio Code, installez le plugin EditorConfig for VS Code
+## Si vous utilisez IntelliJ, installez le plugin EditorConfig
+## Si vous utilisez Xcode, installez le plugin EditorConfig
+
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[Makefile]
+indent_style = tab
+
+[*.md]
+trim_trailing_whitespace = false
