@@ -10,6 +10,9 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
 
+      - name: Install shx
+        run: yarn add shx --no-lockfile
+
       - name: Install and Build
         run: |
           yarn build
