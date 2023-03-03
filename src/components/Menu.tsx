@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function render() {
   return (
@@ -10,28 +11,28 @@ export default function render() {
         >
           <ul className="list-reset flex justify-end flex-1 items-center">
             <li className="mr-3">
-              <a
+              <Link
                 className="inline-block py-2 px-4 text-white font-bold no-underline"
-                href="#"
+                to="/"
               >
-                Active
-              </a>
+                Accueil
+              </Link>
             </li>
             <li className="mr-3">
-              <a
+              <Link
                 className="inline-block text-white no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-                href="#"
+                to="/stream"
               >
-                link
-              </a>
+                Stream
+              </Link>
             </li>
             <li className="mr-3">
-              <a
+              <Link
                 className="inline-block text-white no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-                href="#"
+                to="/contact"
               >
-                link
-              </a>
+                Contact
+              </Link>
             </li>
           </ul>
         </div>
